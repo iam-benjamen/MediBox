@@ -1,6 +1,6 @@
-# MEDIBOX 
+# MEDIBOX
 
-![alt text](preview.jpeg)
+![alt text](/images/preview.jpeg)
 
 ## Table of Contents
 
@@ -42,14 +42,21 @@ The objectives of this project are to:
 
 ## System Architecture
 
-Describe the overall architecture, including block diagrams and system flowcharts.
+![alt text](<Screenshot from 2025-03-04 13-40-45.png>)
+
+The block diagram above describes the overall architecture of the sytem. The Microcontroller(ESP32) serves as the brain of the system, regulating all other mechanisms including the health monitoring system and the drug dispensing.
 
 ## Hardware Components
 
-Detail the hardware components used, such as sensors, actuators, and microcontrollers.
+1. **JF-0530B 12V Linear Solenoids**
+
+    <img src="solenoids.jpeg" alt="linear solenoids" width="200" height="200">
+
+2. **GY-MAX30102 Heart Rate/Oxygen Concentration Sensor Module**
+
+    <img src="images/hardware components/max30102.png" alt="Heart Rate/Oxygen Concentration Sensor Module" width="200" height="200">
 
 ## Software Stack
-
 Outline the programming languages, frameworks, and tools utilized.
 
 ## Implementation Details
@@ -78,9 +85,9 @@ Summarize the key findings and achievements of the project.
 
 ## Authors
 
-- AREO BENJAMEN
-- AJIBOYE AJIBOLA  
+- [AREO BENJAMEN](https:linkedin.com/in/areo-benjamen)
+- [AJIBOYE AJIBOLA]()
 
 ## Supervisor  
 
-- Dr. K.O ODEYEMI
+- [Dr. K.O ODEYEMI]()
